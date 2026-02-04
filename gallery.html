@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Gallery</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/appwrite@13.0.0"></script>
+</head>
 
+<body>
+
+  <h2>My Gallery</h2>
+
+  <input type="file" id="photo" placeholder="Select file">
+  <input type="text" id="title" placeholder="Photo title">
+  <button id="uploadBtn">Upload</button>
+
+  <br><br>
+  <button onclick="logout()">Logout</button>
+
+  <hr>
+  <div id="gallery"></div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
