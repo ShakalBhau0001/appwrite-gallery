@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/appwrite@13.0.0"></script>
+</head>
 
+<body class="dashboard-body">
+
+  <div class="dashboard-container">
+    <h1>📸 Dashboard</h1>
+    <p id="userEmail"></p>
+
+    <div class="card-container">
+      <div class="card" onclick="goGallery()">📁 My Gallery</div>
+      <div class="card logout-card" onclick="logout()">🚪 Logout</div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+  <script>
+    function goGallery() {
+      window.location.href = "gallery.html";
+    }
+  </script>
+</body>
