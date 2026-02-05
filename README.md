@@ -1,4 +1,4 @@
-# 🖼️ Appwrite-Gallery ☁️
+# 🖼️ Appwrite-Gallery (Practice + Learning Project) ☁️
 
 A **frontend-based image gallery application** built using **HTML**, **CSS**, **JavaScript**, and **Appwrite Cloud** that allows users to **register**, **log in**, **upload images to cloud storage**, **and view their personal gallery**.
 
